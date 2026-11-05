@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0425601586C57FA199DB2659 /* IPTVIsland.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 482F3BDEE23BA2FF03DD795A /* IPTVIsland.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		10A0C4FB4A8B4661BDC6BF7C /* Xtream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116758DBB2A0801C55E90C1 /* Xtream.swift */; };
+		11C93F02C426D44971C6EC71 /* MobileVLCKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF4CD04ABD7104C625A5602C /* MobileVLCKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2554D21E2CC73E1FFC20835F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C77BBAC2D52E06B04A0180F /* AVFoundation.framework */; };
+		33AC08AE8D7EE1F1EE54EA3E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D68637A19E3C6B04804481E /* Model.swift */; };
+		35F552007F4E79A72BF0068F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83FBFFA8F835E3DB1879CC /* OpenGLES.framework */; };
+		413754BA98924DD4BE865247 /* PlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EB8E80825E9F2CB91883C /* PlaybackTests.swift */; };
+		49CEBF7FC964BF18C6DC1BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B8362ECF20F07454F8BF58 /* Foundation.framework */; };
+		51DF446FDA74BC1F7ECC6534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B8362ECF20F07454F8BF58 /* Foundation.framework */; };
+		54D827AF01E3E51D31A7F753 /* PlaybackActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4DEE52ECDF855738D2484 /* PlaybackActivity.swift */; };
+		6235044F96614E9419205422 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D56E54063E83BFEFEAC8BC /* CoreMedia.framework */; };
+		6B17ECABA711B70E19D67D04 /* CatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAA453105CDCC8809BE726B /* CatalogTests.swift */; };
+		6F7CA1F2FC94CB0BBA888756 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BCD06E2ABD7F2183B7C19C /* QuartzCore.framework */; };
+		7D97EF48FEBC8568DCFB366B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED371C7794C9F8A5DB88B18 /* VideoToolbox.framework */; };
+		7ED0E0C50515A3845D6D076C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B8362ECF20F07454F8BF58 /* Foundation.framework */; };
+		80443C42A8606013A7D05DCB /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B73BD893CD7B2926707017 /* Island.swift */; };
+		8BE5872C1C69190DE4887EA6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFFF707460BD0695C0C7317 /* AudioToolbox.framework */; };
+		8F9CF9D2D0A4370C1396FF3D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFF4630CECDA44E6072AA /* App.swift */; };
+		AA50B5F62AA7AD9E4EB5CE98 /* PlaybackActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4DEE52ECDF855738D2484 /* PlaybackActivity.swift */; };
+		BC88883B622E660D18095DD2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F53DB3732B66575B15CB576 /* CoreVideo.framework */; };
+		E1B5F623617AF6A413C3BF9A /* MobileVLCKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4CD04ABD7104C625A5602C /* MobileVLCKit.xcframework */; };
+		E4C4FAEE2BF0FC1A33C4156B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F093356CD8F94719301D6F0 /* Security.framework */; };
+		F4FB394F081922E628BA7EFB /* Playback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08457CCC17378EFEAC9D0072 /* Playback.swift */; };
+		FB86981323842B1929B674C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CE9722C128855A0E18C885 /* Assets.xcassets */; };
+		FE24E2237D9D4024C9F270A6 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9010B73696D5B4D7A7F73A4E /* Catalog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C084FCCA871D924F4F811034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA227781D6F6B1B9EAB5F88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0150237940038F3BBD130B8;
+			remoteInfo = IPTVPhone;
+		};
+		C6EAD1FE81EBFF7B16814645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA227781D6F6B1B9EAB5F88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DCC916ADCF02434E82F87D;
+			remoteInfo = IPTVIsland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A805BAD82562DBFC1A23953B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				11C93F02C426D44971C6EC71 /* MobileVLCKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E1A99F8F87F951CF8BFFA3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0425601586C57FA199DB2659 /* IPTVIsland.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08457CCC17378EFEAC9D0072 /* Playback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Playback.swift; sourceTree = "<group>"; };
+		0C77BBAC2D52E06B04A0180F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		21CE9722C128855A0E18C885 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D68637A19E3C6B04804481E /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		482F3BDEE23BA2FF03DD795A /* IPTVIsland.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IPTVIsland.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		573BFF4630CECDA44E6072AA /* App.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		62B73BD893CD7B2926707017 /* Island.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		6718082E8D94F56BD46E041E /* IPTVPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPTVPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFFF707460BD0695C0C7317 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		728B9D4FBB7ABC425748F534 /* IPTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BCD06E2ABD7F2183B7C19C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7F53DB3732B66575B15CB576 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		86D56E54063E83BFEFEAC8BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8D2EB8E80825E9F2CB91883C /* PlaybackTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaybackTests.swift; sourceTree = "<group>"; };
+		9010B73696D5B4D7A7F73A4E /* Catalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		9F093356CD8F94719301D6F0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A116758DBB2A0801C55E90C1 /* Xtream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Xtream.swift; sourceTree = "<group>"; };
+		A4B8362ECF20F07454F8BF58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AC83FBFFA8F835E3DB1879CC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CFAA453105CDCC8809BE726B /* CatalogTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatalogTests.swift; sourceTree = "<group>"; };
+		D2D4DEE52ECDF855738D2484 /* PlaybackActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaybackActivity.swift; sourceTree = "<group>"; };
+		FED371C7794C9F8A5DB88B18 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		FF4CD04ABD7104C625A5602C /* MobileVLCKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MobileVLCKit.xcframework; path = Vendor/MobileVLCKit.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41F7E5FCB1B540925292BC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED0E0C50515A3845D6D076C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82299599CCD923205D38798B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CEBF7FC964BF18C6DC1BC0 /* Foundation.framework in Frameworks */,
+				E1B5F623617AF6A413C3BF9A /* MobileVLCKit.xcframework in Frameworks */,
+				2554D21E2CC73E1FFC20835F /* AVFoundation.framework in Frameworks */,
+				8BE5872C1C69190DE4887EA6 /* AudioToolbox.framework in Frameworks */,
+				6235044F96614E9419205422 /* CoreMedia.framework in Frameworks */,
+				BC88883B622E660D18095DD2 /* CoreVideo.framework in Frameworks */,
+				7D97EF48FEBC8568DCFB366B /* VideoToolbox.framework in Frameworks */,
+				35F552007F4E79A72BF0068F /* OpenGLES.framework in Frameworks */,
+				6F7CA1F2FC94CB0BBA888756 /* QuartzCore.framework in Frameworks */,
+				E4C4FAEE2BF0FC1A33C4156B /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D4132C6128D85011BF6935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DF446FDA74BC1F7ECC6534 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BEFCCCD068ECA63D12E1A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A4B8362ECF20F07454F8BF58 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6062E8E26FAC17B5A2C134C0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D2D4DEE52ECDF855738D2484 /* PlaybackActivity.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6EEF227E48BDE39AEEF4E8B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26BEFCCCD068ECA63D12E1A1 /* iOS */,
+				FF4CD04ABD7104C625A5602C /* MobileVLCKit.xcframework */,
+				0C77BBAC2D52E06B04A0180F /* AVFoundation.framework */,
+				6EFFF707460BD0695C0C7317 /* AudioToolbox.framework */,
+				86D56E54063E83BFEFEAC8BC /* CoreMedia.framework */,
+				7F53DB3732B66575B15CB576 /* CoreVideo.framework */,
+				FED371C7794C9F8A5DB88B18 /* VideoToolbox.framework */,
+				AC83FBFFA8F835E3DB1879CC /* OpenGLES.framework */,
+				75BCD06E2ABD7F2183B7C19C /* QuartzCore.framework */,
+				9F093356CD8F94719301D6F0 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		712310A7389590322D3FBF33 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				573BFF4630CECDA44E6072AA /* App.swift */,
+				9010B73696D5B4D7A7F73A4E /* Catalog.swift */,
+				2D68637A19E3C6B04804481E /* Model.swift */,
+				08457CCC17378EFEAC9D0072 /* Playback.swift */,
+				A116758DBB2A0801C55E90C1 /* Xtream.swift */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7F62B51ABB3792349C122C72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6718082E8D94F56BD46E041E /* IPTVPhone.app */,
+				482F3BDEE23BA2FF03DD795A /* IPTVIsland.appex */,
+				728B9D4FBB7ABC425748F534 /* IPTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AFE0DF4DAC1D0E7AA1C5969 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAA453105CDCC8809BE726B /* CatalogTests.swift */,
+				8D2EB8E80825E9F2CB91883C /* PlaybackTests.swift */,
+			);
+			name = Tests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		9FD8D96D43E3C33AFF6AE283 /* Island */ = {
+			isa = PBXGroup;
+			children = (
+				62B73BD893CD7B2926707017 /* Island.swift */,
+			);
+			name = Island;
+			path = Island;
+			sourceTree = "<group>";
+		};
+		E7D5CCF6FA363687F82B32EC = {
+			isa = PBXGroup;
+			children = (
+				7F62B51ABB3792349C122C72 /* Products */,
+				6EEF227E48BDE39AEEF4E8B6 /* Frameworks */,
+				712310A7389590322D3FBF33 /* Sources */,
+				6062E8E26FAC17B5A2C134C0 /* Shared */,
+				9FD8D96D43E3C33AFF6AE283 /* Island */,
+				8AFE0DF4DAC1D0E7AA1C5969 /* Tests */,
+				21CE9722C128855A0E18C885 /* Assets.xcassets */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		590AB14CE7D2DADB4B9AFF55 /* IPTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9A39B661FAF53AE5E93AA9 /* Build configuration list for PBXNativeTarget "IPTVTests" */;
+			buildPhases = (
+				B43B537633D4A0A4A683FB14 /* Sources */,
+				41F7E5FCB1B540925292BC71 /* Frameworks */,
+				8550CCCBA44351D9D4D0DDC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1C5ACD3DFB31F3F6F7C79B /* PBXTargetDependency */,
+			);
+			name = IPTVTests;
+			productName = IPTVTests;
+			productReference = 728B9D4FBB7ABC425748F534 /* IPTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69DCC916ADCF02434E82F87D /* IPTVIsland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B53AF80FE194A454836DD9E /* Build configuration list for PBXNativeTarget "IPTVIsland" */;
+			buildPhases = (
+				DCBD079FBDC0510016922D8E /* Sources */,
+				97D4132C6128D85011BF6935 /* Frameworks */,
+				C16A432E904F091D0E457F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPTVIsland;
+			productName = IPTVIsland;
+			productReference = 482F3BDEE23BA2FF03DD795A /* IPTVIsland.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C0150237940038F3BBD130B8 /* IPTVPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F7E2F13D5136187C362867 /* Build configuration list for PBXNativeTarget "IPTVPhone" */;
+			buildPhases = (
+				0521F4BE86FA0CCCD8ED1916 /* Sources */,
+				82299599CCD923205D38798B /* Frameworks */,
+				24F0C80B28326BFC968BB278 /* Resources */,
+				A805BAD82562DBFC1A23953B /* Embed Frameworks */,
+				D4E1A99F8F87F951CF8BFFA3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467A042AB67147AB9513CE1B /* PBXTargetDependency */,
+			);
+			name = IPTVPhone;
+			productName = IPTVPhone;
+			productReference = 6718082E8D94F56BD46E041E /* IPTVPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA227781D6F6B1B9EAB5F88B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4B3C6080644AFBE1BCA4581D /* Build configuration list for PBXProject "4431-IPTV-Iphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7D5CCF6FA363687F82B32EC;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = 7F62B51ABB3792349C122C72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0150237940038F3BBD130B8 /* IPTVPhone */,
+				69DCC916ADCF02434E82F87D /* IPTVIsland */,
+				590AB14CE7D2DADB4B9AFF55 /* IPTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24F0C80B28326BFC968BB278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB86981323842B1929B674C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8550CCCBA44351D9D4D0DDC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16A432E904F091D0E457F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0521F4BE86FA0CCCD8ED1916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9CF9D2D0A4370C1396FF3D /* App.swift in Sources */,
+				FE24E2237D9D4024C9F270A6 /* Catalog.swift in Sources */,
+				33AC08AE8D7EE1F1EE54EA3E /* Model.swift in Sources */,
+				F4FB394F081922E628BA7EFB /* Playback.swift in Sources */,
+				10A0C4FB4A8B4661BDC6BF7C /* Xtream.swift in Sources */,
+				54D827AF01E3E51D31A7F753 /* PlaybackActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43B537633D4A0A4A683FB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B17ECABA711B70E19D67D04 /* CatalogTests.swift in Sources */,
+				413754BA98924DD4BE865247 /* PlaybackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBD079FBDC0510016922D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50B5F62AA7AD9E4EB5CE98 /* PlaybackActivity.swift in Sources */,
+				80443C42A8606013A7D05DCB /* Island.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		467A042AB67147AB9513CE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IPTVIsland;
+			target = 69DCC916ADCF02434E82F87D /* IPTVIsland */;
+			targetProxy = C6EAD1FE81EBFF7B16814645 /* PBXContainerItemProxy */;
+		};
+		DB1C5ACD3DFB31F3F6F7C79B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IPTVPhone;
+			target = C0150237940038F3BBD130B8 /* IPTVPhone */;
+			targetProxy = C084FCCA871D924F4F811034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DB67373A5C71940AFB75774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Island/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavensal.iptvphone.island;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26E96210044C446E56266B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavensal.iptvphone.tests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPTVPhone.app/IPTVPhone";
+			};
+			name = Debug;
+		};
+		6D10019A07DA022685E2DF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7330FFC01F630E64EBBD9CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavensal.iptvphone.tests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPTVPhone.app/IPTVPhone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		786FD8D65B0E6960606DBB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Island/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavensal.iptvphone.island;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C4466B082CB3787709950CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C5DD7FEF27531FD9F938BC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+					"-liconv",
+					"-lz",
+					"-lbz2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavensal.iptvphone;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CCB03114EF325B64AFC1D12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+					"-liconv",
+					"-lz",
+					"-lbz2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavensal.iptvphone;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3C6080644AFBE1BCA4581D /* Build configuration list for PBXProject "4431-IPTV-Iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4466B082CB3787709950CDE /* Debug */,
+				6D10019A07DA022685E2DF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B53AF80FE194A454836DD9E /* Build configuration list for PBXNativeTarget "IPTVIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB67373A5C71940AFB75774 /* Release */,
+				786FD8D65B0E6960606DBB26 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F7E2F13D5136187C362867 /* Build configuration list for PBXNativeTarget "IPTVPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB03114EF325B64AFC1D12C /* Release */,
+				C5DD7FEF27531FD9F938BC9B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9A39B661FAF53AE5E93AA9 /* Build configuration list for PBXNativeTarget "IPTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7330FFC01F630E64EBBD9CDA /* Release */,
+				26E96210044C446E56266B7C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA227781D6F6B1B9EAB5F88B /* Project object */;
+}
