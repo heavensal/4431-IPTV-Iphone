@@ -31,7 +31,7 @@ Version prévue : 0.0.1.
 - [x] Vérifier le contenu et les dépendances de l’IPA.
 - [x] Finaliser le README avec téléchargement et installation Xcode/mode développeur.
 - [x] Vérifier l’absence de secrets dans les fichiers suivis par Git.
-- [ ] Créer le dépôt GitHub public 4431-IPTV-Iphone et pousser les sources.
+- [x] Créer le dépôt GitHub public 4431-IPTV-Iphone et pousser les sources.
 - [ ] Publier la release 0.0.1 avec l’IPA non signée et les sources.
 - [ ] Vérifier les liens de la release et remettre le récapitulatif.
 

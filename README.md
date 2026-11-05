@@ -4,7 +4,7 @@ Application native SwiftUI, conçue pour l’iPhone 15 et les modèles suivants,
 
 ## Télécharger et installer
 
-Le fichier local est `dist/4431-IPTV-Iphone-0.0.1-unsigned.ipa`.
+[Télécharger l’IPA non signée 0.0.1](https://github.com/heavensal/4431-IPTV-Iphone/releases/download/v0.0.1/4431-IPTV-Iphone-0.0.1-unsigned.ipa) · [Télécharger les sources pour Xcode](https://github.com/heavensal/4431-IPTV-Iphone/archive/refs/tags/v0.0.1.zip)
 
 Le projet fournit les sources et une IPA **non signée à signer avant installation**. Ouvrir ce lien dans Safari ne suffit pas à installer l’application sur un iPhone. Une signature et un profil de provisioning couvrant l’app et son extension Dynamic Island sont nécessaires. Aucun lien TestFlight n’est publié à ce stade.
 
