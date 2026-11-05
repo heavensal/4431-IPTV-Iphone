@@ -32,8 +32,8 @@ Version prévue : 0.0.1.
 - [x] Finaliser le README avec téléchargement et installation Xcode/mode développeur.
 - [x] Vérifier l’absence de secrets dans les fichiers suivis par Git.
 - [x] Créer le dépôt GitHub public 4431-IPTV-Iphone et pousser les sources.
-- [ ] Publier la release 0.0.1 avec l’IPA non signée et les sources.
-- [ ] Vérifier les liens de la release et remettre le récapitulatif.
+- [x] Publier la release 0.0.1 avec l’IPA non signée et les sources.
+- [x] Vérifier les liens de la release et remettre le récapitulatif.
 
 ## Validation sur appareil réel
 
@@ -56,4 +56,4 @@ Version prévue : 0.0.1.
 
 - Cinq tests passent sur simulateur, dont le décodage effectif de la vidéo fictive. Les sélecteurs audio et sous-titres utilisent désormais des dialogues tactiles qui suspendent le masquage des commandes.
 
-- 5 novembre : archive VideoLAN reçue, empreinte enregistrée. Build Release arm64 réussi et archive IPA vérifiée (app, widget et framework présents). Publication GitHub en attente de confirmation de visibilité.
+- 5 novembre : archive VideoLAN reçue, empreinte enregistrée. Build Release arm64 réussi et archive IPA vérifiée (app, widget et framework présents). Dépôt et release publics, téléchargements vérifiés.
